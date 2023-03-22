@@ -1,0 +1,19 @@
+<style>
+  /* Center the form */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  /* Increase font size */
+  input[type=file], button {
+    font-size: 1.2em;
+  }
+</style>
+
+<form method="POST" enctype="multipart/form-data" action="/">
+  <input type="file" name="file">
+  <button type="submit">Upload</button>
+</form>
